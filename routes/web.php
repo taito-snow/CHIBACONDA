@@ -23,3 +23,9 @@ Route::get('/register', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+Route::get('/qr', function () {
+    return view('qr');
+});
+Route::get('/bonus', function () {
+    return view('bonus');
+});
